@@ -1,1 +1,1 @@
-# modulos-padr-o
+# modulos-padrão para aula de javascript
