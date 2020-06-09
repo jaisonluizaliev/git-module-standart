@@ -1,13 +1,7 @@
-class Planet { //criamos uma classe normal
-    constructor(name, surface_area) {
+module.exports = class Planet { //criamos uma classe normal
+    constructor(name, distanceOfSun) {
         this.name = name
-        this.surface_area = surface_area
-    }
-    rotate() { //um metodo para rotacionar
-        console.log("Rotacionando...")
+        this.distanceOfSun = distanceOfSun
     }
 }
 
-//export 
-module.exports = Planet
-//export default Planet
